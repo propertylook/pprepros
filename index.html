@@ -1,1 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Customer Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
 
+        .header {
+            background-color: #232f3e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .contact-button {
+            background-color: #ff9900;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .contact-button:hover {
+            background-color: #e68900;
+        }
+
+        .support-section {
+            margin-top: 30px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer {
+            background-color: #232f3e;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .description {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        /* Responsive Design for mobile view */
+        @media (max-width: 768px) {
+            .contact-button {
+                padding: 12px 25px;
+                font-size: 14px;
+                width: 90%;
+                margin: 10px auto;
+                display: block;
+            }
+
+            .support-section {
+                padding: 15px;
+            }
+
+            .footer {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 22px;
+                padding: 10px;
+            }
+
+            .description {
+                font-size: 16px;
+            }
+        }
+
+        /* Add space at the bottom of the content */
+        .content-end-space {
+            margin-bottom: 100px; /* Adjust the value for more/less space */
+        }
+    </style>
+<script>
+  function autoDial() {
+    var phoneNumber = "+1 (843) 455-1696";
+    window.location.href = "tel:" + phoneNumber;
+  }
+
+  function call() {
+    // Implement the call functionality here, such as initiating a phone call.
+    console.log("Calling...");
+  }
+</script>
+</head>
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/67867d7b825083258e04d9bf/1ihilkbdc';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+  
+<body onload="autoDial()">
+
+    <div class="header">
+        <h1>Welcome to Amazon Customer Service</h1>
+    </div>
+
+    <div class="content">
+        <p>How can we assist you today? Select a service below:</p>
+        <a href="tel:+18434551696" class="contact-button">Amazon Customer Service</a>
+    </div>
+
+    <!-- Support Section -->
+    <div class="support-section">
+        <p class="description">Need help with something specific? Choose from the options below:</p>
+        
+        <a href="tel:+18434551696" class="contact-button">Track My Order</a>
+        <a href="tel:+18434551696" class="contact-button">Return or Replace Items</a>
+        <a href="tel:+18434551696" class="contact-button">Account & Login Issues</a>
+        <a href="tel:+18434551696" class="contact-button">Shipping & Delivery Help</a>
+        <a href="tel:+18434551696" class="contact-button">Payment & Billing Issues</a>
+    </div>
+
+    <div class="content-end-space"></div> <!-- Extra space added here -->
+
+    <div class="footer">
+        <p>&copy; 2025 Amazon. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
